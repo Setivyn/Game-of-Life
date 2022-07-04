@@ -1,0 +1,12 @@
+﻿  Main.c
+C:\Users\Daniel\source\repos\GoL\GoL\Main.c(6,12): warning C4026: function declared with formal parameter list
+Main.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _SDL_CreateWindowAndRenderer referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function _SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Daniel\source\repos\GoL\\Dependencies\SDL2\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Daniel\source\repos\GoL\\Dependencies\SDL2\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Daniel\source\repos\GoL\Debug\GoL.exe : fatal error LNK1120: 7 unresolved externals
