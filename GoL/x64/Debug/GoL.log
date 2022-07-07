@@ -1,14 +1,11 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
   Main.c
-C:\Users\Daniel\source\repos\GoL\GoL\Main.c(76,15): warning C4022: 'free': pointer mismatch for actual parameter 1
-C:\Users\Daniel\source\repos\GoL\GoL\Main.c(81,1): warning C4026: function declared with formal parameter list
-C:\Users\Daniel\source\repos\GoL\GoL\Main.c(89,31): warning C4047: 'function': 'SDL_Window *' differs in levels of indirection from 'SDL_Window **'
-C:\Users\Daniel\source\repos\GoL\GoL\Main.c(89,18): warning C4024: 'initGame': different types for formal and actual parameter 1
-C:\Users\Daniel\source\repos\GoL\GoL\Main.c(89,42): warning C4047: 'function': 'SDL_Renderer *' differs in levels of indirection from 'SDL_Renderer **'
-C:\Users\Daniel\source\repos\GoL\GoL\Main.c(89,33): warning C4024: 'initGame': different types for formal and actual parameter 2
-C:\Users\Daniel\source\repos\GoL\GoL\Main.c(89,50): warning C4047: 'function': 'playSpace *' differs in levels of indirection from 'playSpace **'
-C:\Users\Daniel\source\repos\GoL\GoL\Main.c(89,44): warning C4024: 'initGame': different types for formal and actual parameter 3
-C:\Users\Daniel\source\repos\GoL\GoL\Main.c(89,59): warning C4047: 'function': 'playSpace *' differs in levels of indirection from 'playSpace **'
-C:\Users\Daniel\source\repos\GoL\GoL\Main.c(89,52): warning C4024: 'initGame': different types for formal and actual parameter 4
-C:\Users\Daniel\source\repos\GoL\GoL\Main.c(71): warning C4716: 'initDisplay': must return a value
-  GoL.vcxproj -> C:\Users\Daniel\source\repos\GoL\GoL\GoL.exe
+E:\GitHub-Repos\GoL\GoL\Main.c(34,15): warning C4022: 'free': pointer mismatch for actual parameter 1
+E:\GitHub-Repos\GoL\GoL\Main.c(39,1): warning C4026: function declared with formal parameter list
+E:\GitHub-Repos\GoL\GoL\Main.c(149,10): warning C4022: 'free': pointer mismatch for actual parameter 1
+E:\GitHub-Repos\GoL\GoL\Main.c(150,10): warning C4022: 'free': pointer mismatch for actual parameter 1
+E:\GitHub-Repos\GoL\GoL\Main.c(151,10): warning C4022: 'free': pointer mismatch for actual parameter 1
+E:\GitHub-Repos\GoL\GoL\Main.c(152,10): warning C4022: 'free': pointer mismatch for actual parameter 1
+E:\GitHub-Repos\GoL\GoL\Main.c(153,10): warning C4022: 'free': pointer mismatch for actual parameter 1
+E:\GitHub-Repos\GoL\GoL\Main.c(154,10): warning C4022: 'free': pointer mismatch for actual parameter 1
+  GoL.vcxproj -> E:\GitHub-Repos\GoL\GoL\GoL.exe
